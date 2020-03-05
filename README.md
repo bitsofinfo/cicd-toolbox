@@ -4,7 +4,7 @@ Simple alpine docker image with bash, curl, jq, and yq. Do cURL ops, manipulate 
 
 Uses default alpine packages for `curl`, `jq` and `bash`, manually grabs latest `yq` release from: https://github.com/mikefarah/yq/
 
-Current versions:
+Current versions (as of this branch):
 ```
 GNU bash, version 4.4.19(1)-release (x86_64-alpine-linux-musl)
 
@@ -27,5 +27,5 @@ docker run bitsofinfo/alpine-bash-curl-jq-yq:latest jq -h
 
 docker run bitsofinfo/alpine-bash-curl-jq-yq:latest curl -h
 
-docker run bitsofinfo/alpine-bash-curl-jq-yq:1.0.0 bash -c 'echo "hello world"'
+docker run bitsofinfo/alpine-bash-curl-jq-yq:latest bash -c 'echo "hello world"'
 ```
