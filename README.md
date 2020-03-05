@@ -15,6 +15,8 @@ yq version 3.2.1
 curl 7.64.0 (x86_64-alpine-linux-musl) libcurl/7.64.0 OpenSSL/1.1.1a zlib/1.2.11 libssh2/1.9.0 nghttp2/1.35.1
 ```
 
+Docker: https://hub.docker.com/repository/docker/bitsofinfo/alpine-bash-curl-jq-yq
+
 Usage:
 ```
 docker run -it bitsofinfo/alpine-bash-curl-jq-yq:latest
