@@ -27,6 +27,8 @@ docker run bitsofinfo/alpine-bash-curl-jq-yq:latest yq -h
 
 docker run bitsofinfo/alpine-bash-curl-jq-yq:latest jq -h
 
+docker run bitsofinfo/alpine-bash-curl-jq-yq:latest jo -h
+
 docker run bitsofinfo/alpine-bash-curl-jq-yq:latest curl -h
 
 docker run bitsofinfo/alpine-bash-curl-jq-yq:latest bash -c 'echo "hello world"'
