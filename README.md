@@ -2,7 +2,7 @@
 
 Simple alpine docker image with bash, curl, jq, jo, and yq. Do cURL ops, manipulate JSON and YAML!
 
-Uses default alpine packages for `curl`, `jq` and `bash`, manually grabs latest `yq` release from: https://github.com/mikefarah/yq/
+Uses default alpine packages for `curl`, `jq`, `jo` (edge) and `bash`, manually grabs latest `yq` release from: https://github.com/mikefarah/yq/
 
 Current versions (as of this branch/tag):
 ```
