@@ -22,6 +22,7 @@ Python 3.8.3
 Additional install Python libraries:
 ```
 Jinja2-2.11.2
+pyyaml-5.3.1
 ```
 
 Docker: https://hub.docker.com/repository/docker/bitsofinfo/alpine-bash-curl-jq-jo-yq-python
