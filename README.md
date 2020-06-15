@@ -24,7 +24,7 @@ Additional install Python libraries:
 Jinja2-2.11.2
 ```
 
-Docker: https://hub.docker.com/repository/docker/bitsofinfo/alpine-bash-curl-jq-yq
+Docker: https://hub.docker.com/repository/docker/bitsofinfo/alpine-bash-curl-jq-jo-yq-python
 
 Build:
 ```
