@@ -26,6 +26,7 @@ Additional install Python libraries:
 Jinja2-2.11.2
 pyyaml-5.3.1
 redis-3.5.3
+jsonpath-ng (latest)
 ```
 
 Docker: https://hub.docker.com/repository/docker/bitsofinfo/cicd-toolbox
