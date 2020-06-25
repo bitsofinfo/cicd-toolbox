@@ -1,6 +1,6 @@
 # cicd-toolbox
 
-Simple alpine Docker image with bash, redis, curl, jq, jo, python (3) and yq. Do cURL ops, manipulate JSON and YAML!
+Simple alpine Docker image with bash, redis, curl, jq, jo, python (3), git and yq. Do cURL ops, manipulate JSON and YAML!
 
 Uses alpine packages for `redis`, `curl`, `python` (3), `jq`, `jo` (edge) and `bash`, manually grabs latest `yq` release from: https://github.com/mikefarah/yq/
 
@@ -19,6 +19,8 @@ curl 7.69.1 (x86_64-alpine-linux-musl) libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11
 Python 3.8.3
 
 redis-cli 5.0.9
+
+git version 2.26.2
 ```
 
 Additional install Python libraries:

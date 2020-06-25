@@ -1,6 +1,6 @@
 FROM python:3.8.3-alpine3.12
 
-RUN apk add --no-cache curl jq bash py-pip redis
+RUN apk add --no-cache curl jq bash py-pip redis git
 RUN sed -i -e 's/v[[:digit:]]\..*\//edge\//g' /etc/apk/repositories
 RUN apk add --no-cache jo
 RUN pip install jinja2 pyyaml redis jsonpath-ng requests
@@ -16,5 +16,6 @@ RUN yq --version
 RUN jo -v
 RUN python --version
 RUN redis-cli -v
+RUN git --version
 
 CMD ["/bin/bash"]
