@@ -10,15 +10,15 @@ GNU bash, version 5.0.17(1)-release (x86_64-alpine-linux-musl)
 
 jq-master-v20200428-28-g864c859e9d
 
-yq version 3.3.2
+yq version 3.4.0
 
-jo 1.3
+jo 1.4
 
 curl 7.69.1 (x86_64-alpine-linux-musl) libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11 nghttp2/1.41.0
 
 OpenSSH_8.3p1, OpenSSL 1.1.1g  21 Apr 2020
 
-Python 3.8.3
+Python 3.8.6
 
 redis-cli 5.0.9
 
@@ -30,8 +30,9 @@ Additional install Python libraries:
 Jinja2-2.11.2
 pyyaml-5.3.1
 redis-3.5.3
-jsonpath-ng (latest)
-requests (latest)
+jsonpath_ng-1.5.2
+requests-2.24.0
+ruamel.yaml-0.16.12
 ```
 
 Docker: https://hub.docker.com/repository/docker/bitsofinfo/cicd-toolbox
